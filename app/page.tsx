@@ -16,52 +16,52 @@ interface NFT {
 const nfts: NFT[] = [
   {
     id: 'nft_001',
-    value: 'prod_mjygf8q3_96xutxw',
+    value: 'prod_mkse51a4_paeawy3',
     name: 'Cosmic Dreams #001',
-    price: 100,
+    price: 10,
     image: 'https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=400&h=400&fit=crop',
     creator: 'ArtistOne',
     type: 'product'
   },
   {
     id: 'nft_002',
-    value: 'prod_mk2rs18g_brza0dq',
+    value: 'prod_mkse6b8z_x68f47t',
     name: 'Digital Horizon #042',
-    price: 5,
+    price: 100,
     image: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=400&h=400&fit=crop',
     creator: 'CryptoCreator',
     type: 'product'
   },
   {
     id: 'nft_003',
-    value: 'prod_mk4hh2q0_u6czh8a',
+    value: 'prod_mkse7zby_4seqt56',
     name: 'Abstract Future #128',
-    price: 10,
+    price: 1000,
     image: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=400&h=400&fit=crop',
     creator: 'PixelMaster',
     type: 'product'
   },
    {
     id: 'nft_004',
-    value: 'prod_mjygk41n_fue6t16',
+    value: 'prod_mkse51a4_paeawy3',
     name: 'Abstract Future #128',
-    price: 7,
+    price: 10,
     image: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=400&h=400&fit=crop',
     creator: 'PixelMaster',
     type: 'product'
   },
   {
     id: 'nft_005',
-    value: 'plan_mjygw8ys_fmaacf8',
+    value: 'plan_mkse8tca_cx67vbw',
     name: 'Subscription 1',
-    price: 300,
+    price: 3,
     image: 'https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=400&h=400&fit=crop',
     creator: 'NeonArtist',
     type: 'subscription'
   },
   {
     id: 'nft_006',
-    value: 'plan_mk4hib7o_1ykemny',
+    value: 'plan_mkse98ze_orxf6rj',
     name: 'Subscription 2',
     price: 50,
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=400&fit=crop',
@@ -70,9 +70,9 @@ const nfts: NFT[] = [
   },
   {
     id: 'nft_007',
-    value: 'plan_mjygxnvs_czt6h4z',
+    value: 'plan_mkse9mke_dppwep0',
     name: 'Subscription 3',
-    price: 10,
+    price: 100,
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=400&fit=crop',
     creator: 'MetaCreator',
     type: 'subscription'

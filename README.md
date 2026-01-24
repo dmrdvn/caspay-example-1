@@ -122,7 +122,8 @@ const result = await caspay.payments.makePayment({
 ```typescript
 const status = await caspay.subscriptions.checkStatus({
   subscriberAddress: address,
-  planId: 'plan_xxx'
+  planId: 'plan_xxx',
+  network: 'testnet' // or 'mainnet'
 });
 ```
 

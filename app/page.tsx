@@ -128,7 +128,8 @@ export default function Home() {
       try {
         const result = await caspay.subscriptions.checkStatus({
           subscriberAddress: address,
-          planId: plan.value
+          planId: plan.value,
+          network: network
         });
         
         subsStatus[plan.value] = result.isActive || false;

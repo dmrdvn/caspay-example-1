@@ -8,7 +8,7 @@ A Next.js sample project demonstrating CasPay SDK integration for accepting paym
 - Casper Wallet integration
 - One-time purchases and recurring subscriptions
 - Real-time subscription status tracking
-- Network detection (Mainnet/Testnet)
+- Network: Casper Testnet (sample only)
 - Responsive UI with Tailwind CSS
 
 ## Tech Stack
@@ -50,10 +50,7 @@ NEXT_PUBLIC_CASPAY_WALLET_ADDRESS=your_wallet_address_here
 NEXT_PUBLIC_CASPAY_NETWORK=testnet
 ```
 
-For mainnet, set:
-```env
-NEXT_PUBLIC_CASPAY_NETWORK=mainnet
-```
+> Note: This sample is intended for Casper **testnet** only. For mainnet integrations, use your own dApp and production configuration.
 
 ## Development
 
